@@ -1,0 +1,77 @@
+/* global setting */
+*
+{
+    box-sizing: border-box;
+}
+
+/* level 1 */
+body
+{
+    color: green;
+    background-color: #161616;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* level 2 */
+main
+{
+    margin: 36px 0 0 0;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+footer
+{
+    height: 40px;
+}
+a
+{
+    color:rgb(98, 110, 235);
+}
+a:hover
+{
+    filter: brightness(0.9);
+    text-decoration: none;
+}
+
+
+/* rest of the elements */
+.buttons-box
+{
+    margin: 36px 0;
+}
+.btn
+{
+    font-size: 1em;
+    font-weight: 600;
+    background-color: black;
+    color: green;
+    padding: 8px;
+    width: 80px;
+    margin: 0 16px;
+}
+
+.scores span
+{
+    font-size: 1.2rem;
+    margin: 0 32px;
+}
+#player-score, #computer-score
+{
+    margin: 0 2px; 
+}
+
+.btn.reset
+{
+    margin: 36px 0;
+    color:rgb(185, 4, 4);
+    background-color: #000066;
+    padding: 1px;
+    border-radius: 2px;
+}
